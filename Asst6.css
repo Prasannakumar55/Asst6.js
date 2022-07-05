@@ -1,0 +1,59 @@
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.cards {
+    display: flex;
+}
+
+h1{
+    color: red;
+}
+.Time{
+    display: flex;
+}
+.Time {
+    font-size:12px;
+    width: 200px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    z-index: 3;
+}
+
+#hours {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(249, 217, 250);
+    padding-top: 10px;
+}
+#minutes {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(249, 217, 250);
+    padding-top: 10px;
+}
+#seconds {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(249, 217, 250);
+    padding-top: 10px;
+}
+#session {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(205, 88, 255);
+    padding-top: 10px;
+    color: white;
+}
